@@ -1,10 +1,5 @@
-# Importing modules
 import keyboard
 import datetime
-
-'''
-Assigning Variables
-'''
 
 b = datetime.datetime.utcnow()
 

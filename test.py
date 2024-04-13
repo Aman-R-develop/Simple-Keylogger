@@ -1,9 +1,12 @@
 import keyboard
 import datetime
 
-b = datetime.datetime.utcnow()
+b = datetime.datetime.now()
 
 a = keyboard.record(until='enter')
+
+with open('inputs.txt','a') as p:
+    pass
 
 # Joining the list and converting into a string
 
